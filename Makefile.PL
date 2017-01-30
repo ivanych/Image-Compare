@@ -25,6 +25,20 @@ WriteMakefile(
         #'Foo::Bar::Module' => 5.0401,
         'Imager' => 0.54,
     },
+    META_MERGE => {
+        'meta-spec' => { version => 2 },
+        resources   => {
+            license     => [ 'http://dev.perl.org/licenses/' ],
+            bugtracker  => {
+                web    => 'https://github.com/ivanych/Image-Compare/issues',
+            },
+            repository => {
+                type => 'git',
+                url  => 'https://github.com/ivanych/Image-Compare.git',
+                web  => 'https://github.com/ivanych/Image-Compare',
+            },
+        },
+    },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Image-Compare-*' },
 );
