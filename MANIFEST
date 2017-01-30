@@ -1,15 +1,4 @@
 Changes
-inc/Module/AutoInstall.pm
-inc/Module/Install.pm
-inc/Module/Install/AutoInstall.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
 lib/Image/Compare.pm
 lib/Image/Compare/AVG_THRESHOLD.pm
 lib/Image/Compare/Comparator.pm
@@ -18,9 +7,9 @@ lib/Image/Compare/IMAGE.pm
 lib/Image/Compare/THRESHOLD.pm
 lib/Image/Compare/THRESHOLD_COUNT.pm
 Makefile.PL
-MANIFEST
-META.yml
+MANIFEST			This list of files
 README
+t/00-load.t
 t/01_basic.t
 t/02_pod.t
 t/03_pod_cover.t
@@ -31,6 +20,10 @@ t/07_threshold.t
 t/08_threshold_count.t
 t/09_matchmask.t
 t/helper.pm
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
 t/sample.gif
 t/sample.jpeg
 t/sample.png
+xt/boilerplate.t
