@@ -2,6 +2,11 @@ Revision history for Image-Compare
 
 {{$NEXT}}
 
+1.02 2016-01-31
+
+    - Add section LICENSE to the pod as suggested by CPANTS
+      (thanks to Mohammad S Anwar)
+
 1.01 2016-01-31
 
     - Assembly system is replaced with EUMM
