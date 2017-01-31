@@ -130,7 +130,7 @@ sub _get_image {
 		# we have to give up.
 		die "Unrecognized input type: '" . ref($img) . "'";
 	}
-	
+
 	# Otherwse, we need to construct an Imager object, and to do that, we
 	# need to build up an arguments hash for the Imager constructor.
 	my %args;
@@ -508,6 +508,10 @@ None at this time.
 =back
 
 =head1 AUTHOR
+
+Avi Finkel <F<avi@finkel.org>>
+
+=head1 LICENSE AND COPYRIGHT
 
 Copyright 2008 Avi Finkel <F<avi@finkel.org>>
 
