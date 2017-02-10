@@ -2,6 +2,10 @@ Revision history for Image-Compare
 
 {{$NEXT}}
 
+1.03 2016-02-10
+
+    - Warning "Constants from lexical variables potentially modified elsewhere are deprecated" fixed
+
 1.02 2016-01-31
 
     - Add section LICENSE to the pod as suggested by CPANTS

@@ -22,7 +22,7 @@ BEGIN {
 	unless ($@) { $loaded_lwp = 1; }
 }
 
-our $VERSION = "1.02";
+our $VERSION = "1.03";
 
 # If people don't want to deal with OO, we export the main "work" method
 # so they can call it in a simpler way.  We'll see below where we handle this.
