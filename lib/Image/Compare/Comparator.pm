@@ -143,7 +143,8 @@ sub import {
 		# We are essentially "exporting" this for backwards compatibility.  We
 		# don't really want to use constants like this any more, but we have
 		# to.  Shucks.
-		*{"Image::Compare::$name"} = sub () { $name };
+		my $name_const = $name;
+		*{"Image::Compare::$name"} = sub () { $name_const };
 		$Image::Compare::class_map{$name} = $cmp_pkg;
 		$Image::Compare::reverse_class_map{$cmp_pkg} = $name;
 	}
